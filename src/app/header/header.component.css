@@ -2,7 +2,7 @@
     height: 30vh;
     padding: 30px;
     background: #dcbc81;
-    color: #fff;
+    color: #222;
     box-shadow: 0 2px 5px -2px grey;
     }
     .menu-header li  {
@@ -30,4 +30,34 @@
     top: 30px;
     font-size: 18px;
     }
+    }
+
+    .view {
+        background: url("https://mdbootstrap.com/img/Photos/Others/img (40).jpg")no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .nav-link{
+        text-decoration: #222;
+        color: #222;
+    }
+    
+    .navbar {
+        color: #222;
+        background-color: transparent;
+    }
+    
+    ::ng-deep .navbar.scrolling-navbar.top-nav-collapse{
+        background-color: #dcbc81;
+    }
+
+    .top-nav-collapse {
+        background-color: #4285F4;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .navbar {
+            background-color: #4285F4;
+        }
     }
