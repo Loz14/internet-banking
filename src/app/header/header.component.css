@@ -39,25 +39,20 @@
     }
 
     .nav-link{
-        text-decoration: #222;
-        color: #222;
+        color: #fff;
     }
     
     .navbar {
-        color: #222;
-        background-color: transparent;
+        color: #fff;
+        background-color: #222;
     }
     
     ::ng-deep .navbar.scrolling-navbar.top-nav-collapse{
-        background-color: #dcbc81;
-    }
-
-    .top-nav-collapse {
-        background-color: #4285F4;
+        background-color: #222;
     }
     
-    @media only screen and (max-width: 768px) {
-        .navbar {
-            background-color: #4285F4;
-        }
+    ::ng-deep .navbar.scrolling-navbar{
+        display: inline-flex;
+        background-color: #2222223d;
     }
+    

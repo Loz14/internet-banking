@@ -1,36 +1,36 @@
 <header class="h-100">
     <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav"
         [containerInside]="false">
-        <mdb-navbar-brand>
-            <a class="logo navbar-brand" href="#">
-                <strong>Loz Bank</strong>
-            </a>
-        </mdb-navbar-brand>
-        <div style="display: inline-flex; justify-content: space-between;">
-            <div style="display: inline-flex;">
-                <links>
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active waves-light" mdbWavesEffect>
-                            <a class="nav-link">Abra sua conta
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item waves-light" mdbWavesEffect>
-                            <a class="nav-link">Investimentos</a>
-                        </li>
-                        <li class="nav-item waves-light" mdbWavesEffect>
-                            <a class="nav-link">Planos</a>
-                        </li>
-                    </ul>
-                </links>
+        <div style="display: inline-flex; width: 100%; justify-content: space-between;">
+            <div style="display: inline-flex; align-items: center;">
+                <mdb-navbar-brand>
+                    <a class="logo navbar-brand" href="#">
+                        <strong>Loz Bank</strong>
+                    </a>
+                </mdb-navbar-brand>
+                <div>
+                    <links>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item waves-light" mdbWavesEffect>
+                                <a class="nav-link" [routerLink]="['/cadastro']">Abra sua conta
+                                </a>
+                            </li>
+                            <li class="nav-item waves-light" mdbWavesEffect>
+                                <a class="nav-link">Investimentos</a>
+                            </li>
+                            <li class="nav-item waves-light" mdbWavesEffect>
+                                <a class="nav-link">Planos</a>
+                            </li>
+                        </ul>
+                    </links>
+                </div>
             </div>
-            <div style="display: inline-flex;    position: relative;
-            left: 38em;">
+            <div>
                 <form>
                     <div class="form-row align-items-center">
                         <div class="col-auto my-1">
                             <div class="form-check">
-                                <label class="form-check-label" for="autoSizingCheck2">
+                                <label style="color: #fff;" class="form-check-label" for="autoSizingCheck2">
                                     <b>Acesse</b> sua conta
                                 </label>
                                 <input type="text" class="form-control" id="inlineFormInputName"
