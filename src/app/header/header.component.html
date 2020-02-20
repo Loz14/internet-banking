@@ -1,7 +1,7 @@
 <header class="h-100">
     <mdb-navbar SideClass="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar intro-fixed-nav"
         [containerInside]="false">
-        <div style="display: inline-flex; width: 100%; justify-content: space-between;">
+        <div style="display: inline-flex; width: 100%; justify-content: space-between; height: 65px;">
             <div style="display: inline-flex; align-items: center;">
                 <mdb-navbar-brand>
                     <a class="logo navbar-brand" href="#">
@@ -25,23 +25,10 @@
                     </links>
                 </div>
             </div>
-            <div>
-                <form>
-                    <div class="form-row align-items-center">
-                        <div class="col-auto my-1">
-                            <div class="form-check">
-                                <label style="color: #fff;" class="form-check-label" for="autoSizingCheck2">
-                                    <b>Acesse</b> sua conta
-                                </label>
-                                <input type="text" class="form-control" id="inlineFormInputName"
-                                    placeholder="Digite seu CPF">
-                            </div>
-                        </div>
-                        <div class="col-auto my-1">
-                            <button type="submit" class="btn btn-primary acessar-conta">Acessar</button>
-                        </div>
-                    </div>
-                </form>
+            <div class="col-xs-12 col-md-4">
+                <div class="position-login">
+                    <app-login></app-login>
+                </div>
             </div>
         </div>
     </mdb-navbar>
