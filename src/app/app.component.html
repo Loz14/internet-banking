@@ -1,7 +1,3 @@
-<div class="container">
-  <div class="row">
-    <app-header></app-header>
-    <router-outlet></router-outlet>
-    <app-footer></app-footer>
-  </div>
-</div>
+<app-header *ngIf="isShow"></app-header>
+<router-outlet></router-outlet>
+<app-footer *ngIf="isShow"></app-footer>

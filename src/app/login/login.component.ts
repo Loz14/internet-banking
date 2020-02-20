@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
-import { ModalNotCadastroComponent } from '../modal-not-cadastro/modal-not-cadastro.component';
+import { ModalNoCadastroComponent } from '../modal-no-cadastro/modal-no-cadastro.component';
 
 @Component({
   selector: 'app-login',
@@ -51,7 +51,7 @@ export class LoginComponent implements OnInit {
   }
 
   openDialog() {
-    const dialogRef = this.dialog.open(ModalNotCadastroComponent, {
+    const dialogRef = this.dialog.open(ModalNoCadastroComponent, {
       height: '350px'
     });
 
