@@ -12,11 +12,13 @@ import { CadastroClientesComponent } from './cadastro-clientes/cadastro-clientes
 import { CadastroConcluidoComponent } from './cadastro-concluido/cadastro-concluido.component';
 import { HomeLoginComponent } from './home-login/home-login.component';
 import { LoginComponent } from './login/login.component';
-
+import { AuthGuard } from 'auth.guard';
+import { AuthService } from 'auth.service';
 import { ModalNoCadastroComponent } from './modal-no-cadastro/modal-no-cadastro.component';
 import { AcessoNegadoComponent } from './acesso-negado/acesso-negado.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
+import { SingletonRouterService } from 'src/services/singletonRouter.service';
 
 
 
@@ -43,7 +45,7 @@ import { MatCardModule } from '@angular/material/card';
     ReactiveFormsModule,
     MatCardModule
   ],
-  providers: [],
+  providers: [SingletonRouterService, AuthGuard, AuthService],
   entryComponents: [ModalNoCadastroComponent],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
