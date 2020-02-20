@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cadastro-concluido',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroConcluidoComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.navegarParaLogin();
   }
-
+  navegarParaLogin() {
+    setTimeout(() => {
+      this.router.navigate(['/login']);
+    }, 3000);
+  }
 }
