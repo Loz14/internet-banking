@@ -8,6 +8,12 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { CadastroClientesComponent } from './cadastro-clientes/cadastro-clientes.component';
+import { CadastroConcluidoComponent } from './cadastro-concluido/cadastro-concluido.component';
+import { HomeLoginComponent } from './home-login/home-login.component';
+import { LoginComponent } from './login/login.component';
+import { ModalNoCadastroComponent } from './modal-no-cadastro/modal-no-cadastro.component';
+import { AcessoNegadoComponent } from './acesso-negado/acesso-negado.component';
 
 
 @NgModule({
@@ -15,7 +21,13 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     AppComponent,
     HeaderComponent,
     ContentComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroClientesComponent,
+    CadastroConcluidoComponent,
+    HomeLoginComponent,
+    LoginComponent,
+    ModalNoCadastroComponent,
+    AcessoNegadoComponent
   ],
   imports: [
     BrowserModule,
