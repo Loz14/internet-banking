@@ -41,6 +41,10 @@
     .nav-link{
         color: #fff;
     }
+
+    .nav-link:hover{
+        background-color: rgba(255, 255, 255, 0.062);
+    }
     
     .navbar {
         color: #fff;
@@ -53,7 +57,7 @@
     
     ::ng-deep .navbar.scrolling-navbar{
         display: inline-flex;
-        background-color: #2222223d;
+        background-color: #000;
     }
     .position-login {
         position: relative;

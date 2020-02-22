@@ -38,12 +38,16 @@ background-size: cover;
 
 .btn-home-cadastro-clientes {
     position: absolute !important;
-    top: 13em;
-    right: -29em;
+    top: 41vh;
+    right: -47vw;
     padding: 20px;
     font-size: 25px;
     width: 40%;
     background: #000;
     color: #fff;
     border: 2px solid;
+}
+
+.btn-home-cadastro-clientes:hover{
+    background: #383838;
 }
