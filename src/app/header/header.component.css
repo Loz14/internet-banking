@@ -48,7 +48,7 @@
     }
     
     ::ng-deep .navbar.scrolling-navbar.top-nav-collapse{
-        background-color: #222;
+        background-color: #000;
     }
     
     ::ng-deep .navbar.scrolling-navbar{
