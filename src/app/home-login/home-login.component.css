@@ -19,7 +19,8 @@ b {
     left: 110px; 
 }
 .custom-height {
-    height: 50vh;
+    height: 110vh;
+    padding-top: 100px;
 }
 .area-logada {
     height: 15vh;

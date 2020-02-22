@@ -19,6 +19,7 @@ import { AcessoNegadoComponent } from './acesso-negado/acesso-negado.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { SingletonRouterService } from 'src/services/singletonRouter.service';
+import { PlanosComponent } from './planos/planos.component';
 
 
 
@@ -33,7 +34,8 @@ import { SingletonRouterService } from 'src/services/singletonRouter.service';
     HomeLoginComponent,
     LoginComponent,
     ModalNoCadastroComponent,
-    AcessoNegadoComponent
+    AcessoNegadoComponent,
+    PlanosComponent
   ],
   imports: [
     BrowserModule,
