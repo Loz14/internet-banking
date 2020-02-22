@@ -1,6 +1,16 @@
 # InternetBank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
+A ideia é desenvolver um SPA (aplicação de página única) Internet Banking com o Angular na Versão 9, irei utilizar como material design o Angular Bootstrap e o material.io 
+
+## Detalhes sobre o projeto
+Pretendo criar um CRUD , com o fluxo natural features de um Internet Banking, com recursos como:
+
+*  Cadastro de clientes;
+*  Acesso a minha conta;
+*  Saldos;
+*  Extrato.
+
+Não vou usar nenhuma linguagem de Backend, nem persistirei os dados em um banco, tudo será salvo no LocalStorage do navegador.
 
 ## Development server
 
