@@ -1,3 +1,18 @@
 .container{
     padding-top: 100px;
 }
+.btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-primary:hover{
+    background-color: #fff;
+    color: #222;
+}
+.btn-outline-primary:active{
+    background-color: #222;
+    border-color: #222;
+}
+.btn-outline-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgb(37, 32, 30);
+}
