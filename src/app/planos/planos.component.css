@@ -16,3 +16,10 @@
 .btn-outline-primary:focus{
     box-shadow: 0 0 0 0.2rem rgb(37, 32, 30);
 }
+.striped li{
+    list-style-type: none;
+}
+.striped{
+    display: contents;
+    text-align: center;
+}

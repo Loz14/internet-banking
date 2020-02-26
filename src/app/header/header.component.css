@@ -64,3 +64,42 @@
         top: -170px;
     }
     
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: initial;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: initial;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .desktop{
+        display: initial;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .desktop{
+        display: initial;
+    }
+    .mobile{
+        display: none;
+    }
+}
