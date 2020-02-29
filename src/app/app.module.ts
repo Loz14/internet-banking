@@ -20,8 +20,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { SingletonRouterService } from 'src/services/singletonRouter.service';
 import { PlanosComponent } from './planos/planos.component';
+import { NgxMaskModule, IConfig } from 'ngx-mask'
 
-
+export let options: Partial<IConfig> | (() => Partial<IConfig>);
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { PlanosComponent } from './planos/planos.component';
     AppRoutingModule,
     MDBBootstrapModule.forRoot(),
     ReactiveFormsModule,
-    MatCardModule
+    MatCardModule,
+    NgxMaskModule.forRoot(options)
   ],
   providers: [SingletonRouterService, AuthGuard, AuthService],
   entryComponents: [ModalNoCadastroComponent],

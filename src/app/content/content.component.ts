@@ -15,7 +15,7 @@ export class ContentComponent implements OnInit {
   ngOnInit(): void {
     const options = {
       stringsElement: '#typed-strings',
-      strings: ['Training banking juros amigo', 'Peça a portabilidade e venha ser Training Bankinhg hoje mesmo', 'Inovador digital e seguro'],
+      strings: ['Loz banking juros amigo', 'Peça a portabilidade e venha ser Loz Bankinhg hoje mesmo', 'Inovador digital e seguro'],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 200,
