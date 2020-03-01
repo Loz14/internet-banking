@@ -20,7 +20,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { SingletonRouterService } from 'src/services/singletonRouter.service';
 import { PlanosComponent } from './planos/planos.component';
-import { NgxMaskModule, IConfig } from 'ngx-mask'
+import { NgxMaskModule, IConfig } from 'ngx-mask';
+import { MatInputModule } from '@angular/material/input';
+
 
 export let options: Partial<IConfig> | (() => Partial<IConfig>);
 
@@ -47,6 +49,7 @@ export let options: Partial<IConfig> | (() => Partial<IConfig>);
     MDBBootstrapModule.forRoot(),
     ReactiveFormsModule,
     MatCardModule,
+    MatInputModule,
     NgxMaskModule.forRoot(options)
   ],
   providers: [SingletonRouterService, AuthGuard, AuthService],
